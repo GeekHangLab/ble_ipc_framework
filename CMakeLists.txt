@@ -4,6 +4,7 @@ project(BLE_IPC_Framework)
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
+add_compile_options("/utf-8")
 
 # Include third party directories
 include_directories(
